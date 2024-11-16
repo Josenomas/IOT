@@ -1,0 +1,93 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#3F51B5">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Remedios"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:textColor="#FFFFFF" />
+
+    <!-- TextView para mensajes o resultados -->
+    <TextView
+        android:id="@+id/tvResultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Los Resultados aparecerán aquí para modificar selecciona el producto..."
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textColor="#020202" />
+
+    <!-- RecyclerView para mostrar los remedios -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <!-- Campos para editar información de remedios -->
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID del remedio" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del remedio" />
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad" />
+
+    <EditText
+        android:id="@+id/etFechaVencimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de vencimiento (dd/MM/yyyy)" />
+
+    <EditText
+        android:id="@+id/etMg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Miligramos (MG)" />
+
+    <EditText
+        android:id="@+id/etPresentacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Presentación" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <!-- Botones para actualizar y eliminar remedios -->
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Remedio" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Remedio" />
+</LinearLayout>

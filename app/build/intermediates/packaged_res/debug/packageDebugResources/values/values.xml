@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="presentacion_opciones">
+        <item>Comprimido</item>
+        <item>Líquido</item>
+        <item>Jarabe</item>
+        <item>Polvo</item>
+        <item>Otro</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="fondo_principal">#F5F5F5</color>
+    <color name="fondo_secundario">#FFFFFF</color>
+    <color name="gradient_end">#F8BBD0</color>
+    <color name="gradient_start">#FFCDD2</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Stock Botiquin</string>
+    <string name="spinner_prompt">Seleccione una presentación</string>
+    <style name="Base.Theme.StockBotiquin" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.StockBotiquin" parent="Base.Theme.StockBotiquin"/>
+</resources>
