@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#009688">
+
+    <!-- Título para la pantalla de resultados -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock Botiquin"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID del remedio" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del remedio" />
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad" />
+
+    <EditText
+        android:id="@+id/etFechaVencimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de vencimiento (dd/mm/aaaa)" />
+
+    <EditText
+        android:id="@+id/etMg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Miligramos (MG)" />
+
+    <!-- Etiqueta para el Spinner -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presentación"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Spinner para opciones de presentación -->
+    <Spinner
+        android:id="@+id/spPresentacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/spinner_prompt" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Remedio" />
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Remedios" />
+
+    <Button
+        android:id="@+id/btnVerStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Stock de Remedios"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnBuscarRemedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Remedios"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>

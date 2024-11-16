@@ -1,0 +1,16 @@
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">Stock Botiquin</string>
+
+    <!-- Texto para el Spinner -->
+    <string name="spinner_prompt">Seleccione una presentación</string>
+
+    <!-- Opciones del Spinner -->
+    <string-array name="presentacion_opciones">
+        <item>Comprimido</item>
+        <item>Líquido</item>
+        <item>Jarabe</item>
+        <item>Polvo</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

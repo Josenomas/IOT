@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+<!-- Colores principales -->
+<color name="primary_text">#212121</color> <!-- Color oscuro para texto principal -->
+<color name="secondary_text">#757575</color> <!-- Color gris para texto secundario -->
+<color name="fondo_secundario">#FFFFFF</color> <!-- Fondo blanco para tarjetas -->
+
+<!-- Opcional: colores adicionales -->
+<color name="fondo_principal">#F5F5F5</color> <!-- Fondo claro general -->
+<color name="gradient_start">#FFCDD2</color>
+<color name="gradient_end">#F8BBD0</color>
+</resources>

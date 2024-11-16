@@ -1,0 +1,57 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/itemContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del remedio"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvFechaVencimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de vencimiento"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvMg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MG"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvPresentacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presentación"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="14sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
